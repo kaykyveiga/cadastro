@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">       
+</head>
+<body>
+    <main>
+    <div>
+        <h1 id="titulo">Cadastro de DEVs</h1>
+        <p id="subtitulo">Complete suas informações</p>  
+    </div>
+   
+    <form action="cadastro.php" method="post">
+          
+            <div>
+                    <label class="titulo" for="inome"><strong>Nome:</strong></label>
+                    <input class="caixa" type="text" name="nome" id="inome" required placeholder="Digite seu nome">
+            </div>
+
+            <div>
+                    <label class="titulo" for="isobrenome"><strong>Sobrenome:</strong></label>
+                    <input class="caixa" type="text" name="sobrenome" id="isobrenome" required placeholder="Digite seu sobrenome">
+            </div>
+              
+            <div>
+                   <label class="titulo" for="iemail"><strong>Email:</strong></label> 
+                   <input class="caixa" type="email" name="email" id="iemail" required placeholder="Digite seu email"> 
+            </div>
+
+            <div>
+                   <label class="titulo"><strong>De qual lado da aplicação você desenvolve?</strong></label> <br>
+                   <input type="radio" name="aplic" id="ifront-end"> <label for="ifront-end">Front-end</label> <br>
+                   <input type="radio" name="aplic" id="iback-end"> <label for="iback-end">Back-end</label> <br>
+                   <input type="radio" name="aplic" id="ifullstack"> <label for="ifullstack">Fullstack</label>
+       
+            </div>
+
+            <div>
+                   <label class="titulo" for="isenioridade"><strong>Senioridade:</strong></label> 
+                   <select class="caixa"  name="senioridade" id="isenioridade">
+                            <option selected disabled value="">Selecione</option>
+                            <option value="jr">Júnior</option>
+                            <option value="pl">Pleno</option>
+                            <option value="sr">Sênior</option>
+                   </select>
+            </div>
+           
+            <div>
+                    <label class="titulo" for="itec"><strong>Selecione as tecnologias que você utiliza:</strong></label> <br> <br>
+                    <input type="checkbox" name="html" id="ihtml"> <label for="Ihtml">HTML</label>
+                    <input type="checkbox" name="css" id="icss"> <label for="icss">CSS</label>
+                    <input type="checkbox" name="javascript" id="ijavascript"> <label for="ijavascript">JavaScript</label>
+                    <input type="checkbox" name="php" id="iphp"> <label for="iphp">PHP</label>
+                    <input type="checkbox" name="c#" id="ic#"> <label for="ic#">C#</label>
+                    <input type="checkbox" name="c++" id="ic++"> <label for="ic++">C++</label>
+                    <input type="checkbox" name="python" id="ipython"> <label for="ipython">Python</label>
+                    <input type="checkbox" name="java" id="ijava"> <label for="ijava">Java</label>
+            </div>
+
+            <div>
+                    <label class="titulo" >Você tem alguma graduação?</label> <br>
+                    <input  type="radio" name="form" id="sim"><label for="sim"><strong>Sim</strong></label>
+                    <input  type="radio" name="form" id="nao"> <label for="nao"><strong>Não</strong></label> <br>
+                    <label class="titulo"  for="iformacao">Se sim, qual?</label> 
+                    <input class="caixa"  type="text" name="formacao" id="iformacao" placeholder="Digite sua graduação">       
+            </div>
+           
+            <div>
+                   <label class="titulo" for="imsg"><strong>Conte um pouco mais sobre sua experîencia:</strong></label> <br>
+                   <textarea class="caixa" name="msg" id="imsg" cols="26em" rows="10"></textarea width="100vw">
+            </div>
+
+            <div>
+                    <butto><input class="botao" type="submit" value="Concluído"></button>
+            </div>
+    </form>
+    </main>
+</body>
+</html>
