@@ -8,7 +8,6 @@ body{
     text-align: center;
 }
 main{
-    
     width: 100vw;
     height: 100%;
     background-color: #f0f8ff;
@@ -31,7 +30,7 @@ div{
 .caixa{
     border-radius: 5px;
     padding: 5px;
-    box-shadow: 2px 2px 2px rgb(0, 0, 0,0.2);
+    box-shadow: 2px 2px 3px rgb(0, 0, 0,0.2);
 }
 .titulo{
     color: #2D118A;
