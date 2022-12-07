@@ -48,6 +48,7 @@ div{
     box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
     border-radius: 5px;
     padding: 7px;
+    border: unset;
 }
 .botao:hover{
     background-color: #0949B0;
