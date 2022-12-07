@@ -17,12 +17,11 @@ body{
 }
 main{
     min-width:100px;
-   
     background-color: #f0f8ff;
     padding: 10px;
     display: block;
     text-align: center;
-    margin: 20px;
+    margin: 28px;
     border-radius: 8px;
     box-sizing: border-box;
 }
@@ -43,10 +42,9 @@ div{
 .caixa{
     border-radius: 5px;
     padding: 5px;
-    box-shadow: 2px 2px 3px rgb(0, 0, 0,0.2);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.13);
     background-color: white;
 }
-
 .titulo{
     color: #2D118A;
     font-weight: bold;
@@ -55,7 +53,6 @@ div{
 .botao{
     display: block;
     background: linear-gradient(120deg,#5b13f2,#261cdb);
-    translate: ;
     color: white;
     margin: auto;
     font-weight:bold ;
