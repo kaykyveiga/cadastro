@@ -10,28 +10,28 @@
 <body>
     <main>
     <div>
-        <h1 id="titulo">Cadastro de DEVs</h1>
-        <p id="subtitulo">Complete suas informações</p>  
+        <h1 id="header">Cadastro de DEVs</h1>
+        <p id="capition">Complete suas informações</p>  
     </div>
    
     <form action="index02.html" method="post">
           
             <div>
-                    <label class="titulo" for="inome"><strong>Nome:</strong></label>
-                    <input class="caixa" type="text" name="nome" id="inome" required placeholder="Digite seu nome">
+                    <label class="label" for="inome"><strong>Nome:</strong></label>
+                    <input class="input" type="text" name="nome" id="inome" required placeholder="Digite seu nome">
             </div>
             <div>
-                    <label class="titulo" for="isobrenome"><strong>Sobrenome:</strong></label>
-                    <input class="caixa" type="text" name="sobrenome" id="isobrenome" required placeholder="Digite seu sobrenome">
+                    <label class="label" for="isobrenome"><strong>Sobrenome:</strong></label>
+                    <input class="input" type="text" name="sobrenome" id="isobrenome" required placeholder="Digite seu sobrenome">
             </div>
               
             <div>
-                   <label class="titulo" for="iemail"><strong>Email:</strong></label> 
-                   <input class="caixa" type="email" name="email" id="iemail" required placeholder="Digite seu email"> 
+                   <label class="label" for="iemail"><strong>Email:</strong></label> 
+                   <input class="input" type="email" name="email" id="iemail" required placeholder="Digite seu email"> 
             </div>
 
             <div>
-                   <label class="titulo"><strong>De qual lado da aplicação você desenvolve?</strong></label> <br> <br>
+                   <label class="label"><strong>De qual lado da aplicação você desenvolve?</strong></label> <br> <br>
                    <input type="radio" name="aplic" id="ifront-end"> <label for="ifront-end">Front-end</label>
                    <input type="radio" name="aplic" id="iback-end"> <label for="iback-end">Back-end</label> 
                    <input type="radio" name="aplic" id="ifullstack"> <label for="ifullstack">Fullstack</label>
@@ -39,8 +39,8 @@
             </div>
 
             <div>
-                   <label class="titulo" for="isenioridade"><strong>Senioridade:</strong></label> 
-                   <select class="caixa"  name="senioridade" id="isenioridade">
+                   <label class="label" for="isenioridade"><strong>Senioridade:</strong></label> 
+                   <select class="input"  name="senioridade" id="isenioridade">
                             <option selected disabled value="">Selecione</option>
                             <option value="jr">Júnior</option>
                             <option value="pl">Pleno</option>
@@ -49,7 +49,7 @@
             </div>
            
             <div>
-                    <label class="titulo" for="itec"><strong>Selecione as tecnologias que você utiliza:</strong></label> <br> <br>
+                    <label class="label" for="itec"><strong>Selecione as tecnologias que você utiliza:</strong></label> <br> <br>
                     <input type="checkbox" name="html" id="ihtml"> <label for="Ihtml">HTML</label>
                     <input type="checkbox" name="css" id="icss"> <label for="icss">CSS</label>
                     <input type="checkbox" name="javascript" id="ijavascript"> <label for="ijavascript">JavaScript</label>
@@ -61,20 +61,20 @@
             </div>
 
             <div>
-                    <label class="titulo" >Você tem alguma graduação?</label> <br>
+                    <label class="label" >Você tem alguma graduação?</label> <br>
                     <input  type="radio" name="form" id="sim"><label for="sim"><strong>Sim</strong></label>
                     <input  type="radio" name="form" id="nao"> <label for="nao"><strong>Não</strong></label> <br> <br>
-                    <label class="titulo"  for="iformacao">Se sim, qual?</label> 
-                    <input class="caixa"  type="text" name="formacao" id="iformacao" placeholder="Digite sua graduação">       
+                    <label class="label"  for="iformacao">Se sim, qual?</label> 
+                    <input class="input"  type="text" name="formacao" id="iformacao" placeholder="Digite sua graduação">       
             </div>
            
             <div>
-                   <label class="titulo" for="imsg"><strong>Conte um pouco mais sobre sua experîencia e quais suas inteções na empresa:</strong></label> <br> <br>
-                   <textarea class="caixa" name="msg" id="imsg" cols="26em" rows="10" placeholder="Escreva aqui com sua palavras."></textarea width="100vw">
+                   <label class="label" for="imsg"><strong>Conte um pouco mais sobre sua experîencia e quais suas inteções na empresa:</strong></label> <br> <br>
+                   <textarea class="input" name="msg" id="imsg" cols="26em" rows="10" placeholder="Escreva aqui com sua palavras."></textarea width="100vw">
             </div>
 
             <div>
-                    <butto><input class="botao" type="submit" value="Enviar"></button>
+                    <butto class="button"><a href="index02.html">Enviar</a></button>
             </div>
     </form>
     </main>
